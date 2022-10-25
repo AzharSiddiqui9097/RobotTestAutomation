@@ -8,7 +8,7 @@ Suite Teardown    Quit Browser
 
 *** Variables ***
 ${url}      https://login.replicon.com/DefaultV2.aspx
-${browser}      Chrome
+${browser}      headlessChrome
 *** Test Cases ***
 Test Login page
     set selenium implicit wait   10seconds
